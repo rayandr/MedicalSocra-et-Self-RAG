@@ -1,1 +1,1 @@
-# Projet-stage-M2
+# MedicalSocra-et-Self-RAG
