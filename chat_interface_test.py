@@ -1,6 +1,6 @@
 import gradio as gr
 from gradio.themes.default import Default
-from self_rag_v5 import app  # your backend module
+from self_rag_v6 import app  # your backend module
 
 
 
