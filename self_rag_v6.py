@@ -1,20 +1,3 @@
-"""
-Self-RAG (Retrieval-Augmented Generation) System with Self-Reflection
-
-This implementation creates an advanced RAG system that continuously evaluates and improves its own outputs.
-Instead of just retrieving documents and generating answers, it uses multiple LLM agents to:
-1. Route questions to appropriate data sources
-2. Evaluate document relevance
-3. Check for hallucinations in generated answers
-4. Verify answer quality and completeness
-
-The system uses LangGraph to create a workflow that can adapt and improve through self-assessment.
-"""
-
-# ============================================================================
-# IMPORTS AND ENVIRONMENT SETUP
-# ============================================================================
-
 import os
 from dotenv import load_dotenv
 
