@@ -1,5 +1,5 @@
 import streamlit as st
-from medical_socra_RAG_v2_copy import medical_socra_run  # Ensure this matches the actual function
+from medical_socra_RAG_v3 import medical_socra_run  # Ensure this matches the actual function
 
 
 st.title("Medical Socratic Assistant")
