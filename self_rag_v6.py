@@ -554,11 +554,9 @@ workflow.add_conditional_edges(
 # Compile the workflow into an executable application
 app = workflow.compile()
 
-# ============================================================================
-# USAGE EXAMPLE
-# ============================================================================
 
-# Example usage (commented out):
+
+# Example usage:
 # from pprint import pprint
 # 
 # # Test with a general question (should go to web search)
